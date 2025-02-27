@@ -1,0 +1,20 @@
+1.The states of promises in JavaScript
+A promise has three states:
+
+pending: the promise is still in the works
+fulfilled: the promise resolves successfully and returns a value
+rejected: the promise fails with an error
+The fulfilled and rejected states have one thing in common: whether a promise is fulfilled or rejected, the promise is settled. So a settled state could either be a fulfilled or a rejected promise.
+
+
+
+2. catch() method provides a callback.
+
+The callback is a function to run when a promise is rejected.
+
+
+
+3. then() method provides two callbacks:
+
+One funtion to run when a promise is fulfilled and one funtion to run when a promise is rejected.
+
